@@ -81,6 +81,6 @@ function idInvalidCardCompanies(nestedArray){
 }
 
 
-console.log(findInvalidCards(batch));
-console.log(idInvalidCardCompanies(batch));
-
+console.log(validateCred(valid1)); // Should print true
+console.log(findInvalidCards(batch)); // Should print array of invalid cards
+console.log(idInvalidCardCompanies(findInvalidCards(batch))); // Should print array of companies
